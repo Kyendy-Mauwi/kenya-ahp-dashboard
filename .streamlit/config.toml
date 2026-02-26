@@ -1,0 +1,25 @@
+[theme]
+# The primary accent color (Kenyan Green)
+primaryColor = "#006633"
+
+# The background color for the main content area
+backgroundColor = "#0E1117"
+
+# The background color for the sidebar
+secondaryBackgroundColor = "#1A1C24"
+
+# The main text color
+textColor = "#FFFFFF"
+
+# Font family (Sans Serif looks cleaner for data)
+font = "sans serif"
+
+[server]
+# Ensures the app fills the screen on wide monitors
+headless = true
+enableCORS = false
+enableXsrfProtection = false
+
+[browser]
+# Removes the "Made with Streamlit" footer for a white-label look
+gatherUsageStats = false
