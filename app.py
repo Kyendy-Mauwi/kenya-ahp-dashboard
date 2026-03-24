@@ -1,8 +1,17 @@
+# import streamlit as st
+# import pandas as pd
+# from src.scraper import get_county_data, get_msme_impact_data
+# from src.calculator import calculate_tps, get_category
+# from src.ui_components import plot_funnel, plot_impact_bar
+
 import streamlit as st
 import pandas as pd
-from src.scraper import get_county_data, get_msme_impact_data
-from src.calculator import calculate_tps, get_category
-from src.ui_components import plot_funnel, plot_impact_bar
+
+# We no longer need the sys.path.append fix!
+# Import directly from the local files
+from scraper import get_county_data, get_msme_impact_data
+from calculator import calculate_tps, get_category
+from ui_components import plot_funnel, plot_impact_bar
 
 # --- THEME & CONFIG ---
 K_GREEN = "#006633"
